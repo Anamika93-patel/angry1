@@ -18,7 +18,7 @@ function setup() {
 
 	//Create the Bodies Here.
 	base = new Ground(400,680,700,15);
-	paper = new Player(200,600,15,15);
+	paper = new Player(200,600,30,30);
 	dustbin1 = new Dustbin(590,640,10,50);
 	dustbin2 = new Dustbin(640,670,100,10);
 	dustbin3 = new Dustbin(690,640,10,50);
